@@ -711,7 +711,7 @@ TpToBed()
 })
 
 
-local PlayerTp = CreateToggle({
+local Nuker = CreateToggle({
     Text = "Nuker",
     Column = 0.22,
     Color = Yellow,
