@@ -449,7 +449,7 @@ local Speed = CreateToggle({
     Enabled3 = value
     if Hum and Enabled3 then 
     repeat 
-    Hum.WalkSpeed = 50
+    Hum.WalkSpeed = 23
     until not game
     end
     end
@@ -721,4 +721,15 @@ KillPlayer()
 task.wait(DeathDelay)
 TpToPlayer()
     end
-})
+
+
+local Nuker = CreateToggle({
+    Text = "Nuker",
+    Column = 0.23,
+    Color = Yellow,
+    Parent = combat,
+    Callback = function()
+KillPlayer()
+task.wait(DeathDelay)
+TpToPlayer()
+    end
