@@ -722,16 +722,3 @@ task.wait(DeathDelay)
 TpToPlayer()
     end
 })
-
-
-local Nuker = CreateToggle({
-    Text = "Nuker",
-    Column = 0.23,
-    Color = Yellow,
-    Parent = combat,
-    Callback = function()
-KillPlayer()
-task.wait(DeathDelay)
-TpToPlayer()
-    end
-})
