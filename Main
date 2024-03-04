@@ -721,6 +721,7 @@ KillPlayer()
 task.wait(DeathDelay)
 TpToPlayer()
     end
+})
 
 
 local Nuker = CreateToggle({
@@ -733,3 +734,4 @@ KillPlayer()
 task.wait(DeathDelay)
 TpToPlayer()
     end
+})
