@@ -712,7 +712,7 @@ TpToBed()
 
 
 local PlayerTp = CreateToggle({
-    Text = "PlayerTp",
+    Text = "Nuker",
     Column = 0.22,
     Color = Yellow,
     Parent = combat,
